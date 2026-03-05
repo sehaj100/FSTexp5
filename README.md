@@ -32,15 +32,15 @@ This approach reduces the size of the initial bundle and enhances application pe
 - The selected component loads after a delay of 5 seconds.
 - The initial bundle size of the application is reduced.
 
-<img width="1512" height="982" alt="Screenshot 2026-03-02 at 10 47 11 AM" src="https://github.com/user-attachments/assets/75cd71a4-55ba-4376-891a-772aeef24776" />
-<img width="1512" height="982" alt="Screenshot 2026-03-02 at 10 47 17 AM" src="https://github.com/user-attachments/assets/34a87a3a-71af-4c0a-a38f-4c1fd5beb946" />
-<img width="1512" height="982" alt="Screenshot 2026-03-02 at 10 48 08 AM" src="https://github.com/user-attachments/assets/b8c920bc-513e-4785-830f-bf3783c39153" />
-
 ### Result
 Component‑level lazy loading was successfully implemented using `React.lazy()` and `Suspense`. Components are loaded dynamically only when required, improving the overall performance of the application.
 
 ### Conclusion
 Lazy loading improves frontend performance by decreasing the initial loading time and dynamically loading components when users navigate through the application.
+
+img width="1512" height="982" alt="Screenshot 2026-03-02 at 10 47 11 AM" src="https://github.com/user-attachments/assets/75cd71a4-55ba-4376-891a-772aeef24776" />
+<img width="1512" height="982" alt="Screenshot 2026-03-02 at 10 47 17 AM" src="https://github.com/user-attachments/assets/34a87a3a-71af-4c0a-a38f-4c1fd5beb946" />
+<img width="1512" height="982" alt="Screenshot 2026-03-02 at 10 48 08 AM" src="https://github.com/user-attachments/assets/b8c920bc-513e-4785-830f-bf3783c39153" />
 
 ---
 
@@ -76,13 +76,12 @@ This reduces the startup bundle size and improves the loading speed of the appli
 - When navigating to Dashboard, Profile, or Settings, a fallback loading interface appears.
 - The selected page loads after approximately 5 seconds.
 
-<img width="1512" height="982" alt="Screenshot 2026-03-02 at 10 57 15 AM" src="https://github.com/user-attachments/assets/e1a83bb0-c405-4437-bb9a-85dd3b2bbf9b" />
-<img width="1512" height="982" alt="Screenshot 2026-03-02 at 10 57 21 AM" src="https://github.com/user-attachments/assets/6995d908-3e77-4220-8b44-17f11c2d6380" />
-<img width="1512" height="982" alt="Screenshot 2026-03-02 at 10 57 29 AM" src="https://github.com/user-attachments/assets/709d9429-d5a8-40e7-9cfe-c56e31f1bc4d" />
-<img width="1512" height="982" alt="Screenshot 2026-03-02 at 10 57 39 AM" src="https://github.com/user-attachments/assets/a6e9d004-e01d-4d38-9819-8502d4aefc61" />
-
 ### Result
 Route‑based lazy loading was implemented successfully, ensuring that page components are dynamically imported only when the corresponding route is accessed.
+
+<img width="1512" height="982" alt="Screenshot 2026-03-02 at 10 57 15 AM" src="https://github.com/user-attachments/assets/e1a83bb0-c405-4437-bb9a-85dd3b2bbf9b" />
+<img width="1512" height="982" alt="Screenshot 2026-03-02 at 10 57 21 AM" src="https://github.com/user-attachments/assets/6995d908-3e77-4220-8b44-17f11c2d6380" />
+<img width="1512" height="982" alt="Screenshot 2026-03-02 at 10 57 39 AM" src="https://github.com/user-attachments/assets/a6e9d004-e01d-4d38-9819-8502d4aefc61" />
 
 ### Conclusion
 Route‑based lazy loading improves application efficiency by minimizing the initial loading time and loading route‑specific components only when users navigate to them in a Single Page Application.
